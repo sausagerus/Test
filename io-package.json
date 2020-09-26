@@ -1,0 +1,98 @@
+{
+    "common": {
+        "name": "resty",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "RESTy",
+        "titleLang": {
+            "en": "RESTy",
+            "de": "RESTy",
+            "ru": "RESTy",
+            "pt": "RESTy",
+            "nl": "RUST",
+            "fr": "REPOS",
+            "it": "RESTy",
+            "es": "DESCANSO",
+            "pl": "RESTY",
+            "zh-cn": "休息"
+        },
+        "desc": {
+            "en": "RESTy",
+            "de": "RESTy",
+            "ru": "RESTy",
+            "pt": "RESTy",
+            "nl": "RUST",
+            "fr": "REPOS",
+            "it": "RESTy",
+            "es": "DESCANSO",
+            "pl": "RESTY",
+            "zh-cn": "休息"
+        },
+        "authors": [
+            "sausagerus <sausage_ru@mail.ru>"
+        ],
+        "keywords": [
+            "idk"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "resty.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/sausagerus/ioBroker.resty/master/admin/resty.png",
+        "readme": "https://github.com/sausagerus/ioBroker.resty/blob/master/README.md",
+        "loglevel": "info",
+        "restartAdapters": [
+            "vis"
+        ],
+        "localLink": "%web_protocol%://%ip%:%web_port%/vis/edit.html",
+        "mode": "daemon",
+        "type": "communication",
+        "compact": true,
+        "materialize": true,
+        "materializeTab": true,
+        "adminTab": {
+            "singleton": true,
+            "name": {
+                "en": "RESTy",
+                "de": "RESTy",
+                "ru": "RESTy",
+                "pt": "RESTy",
+                "nl": "RUST",
+                "fr": "REPOS",
+                "it": "RESTy",
+                "es": "DESCANSO",
+                "pl": "RESTY",
+                "zh-cn": "休息"
+            },
+            "link": "",
+            "fa-icon": "info"
+        },
+        "supportCustoms": true,
+        "dependencies": [
+            {
+                "js-controller": ">=1.4.2"
+            },
+            "vis"
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
